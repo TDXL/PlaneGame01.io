@@ -374,6 +374,10 @@
               var p = document.getElementsByTagName('p')[0];
               p.className = '';
               p.innerText = '恭喜过关';
+              play1.plane.bollet('die');
+              play1.direction('die');
+              play1.hinder.move('die');
+              play1.init('[]');
             }else {
               scare.innerText = parseInt(scare.innerText) + 10;
             }
